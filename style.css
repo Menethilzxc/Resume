@@ -112,6 +112,7 @@ a:active {
     border: none;
     border-radius: 5px;
     background: rgb(255, 255, 255);
+    color: black;
     cursor: pointer;
     transition: all 0.2s;
 }
