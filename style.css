@@ -31,6 +31,11 @@ body {
 .info {
     margin-bottom: 20px;
     padding: 25px 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
 }
 
 .info-text p {
@@ -39,7 +44,7 @@ body {
     color: #d8e7eb;
     margin: 0;
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .info-text h4 {
@@ -104,6 +109,10 @@ a:active {
     background: #84e387;
     border-radius: 10px;
     padding: 15px 20px;
+}
+
+.card-3 h2 {
+    text-align: center;
 }
 
 .btn {
@@ -175,4 +184,42 @@ a:active {
 
 .navbar ul li:last-child {
     margin-right: 0;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50% - 20px); */
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
 }
